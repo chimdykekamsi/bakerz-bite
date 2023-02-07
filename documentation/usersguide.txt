@@ -1,0 +1,44 @@
+Bakerz Bite users guide
+
+================================================================
+
+Top page:
+
+this section consist of the header and the banner.
+
+The header having the navigation link and the logo , clicking on the logo 
+would refresh the page while clicking on the navigation items 
+gives a smooth scroll to the sections represented.
+
+Gallery section:
+
+displays various images of some available products served by Bakerz Bite 
+clicking on each item pops up a window where details of the item
+could be found such details include Name price, and ingredient .
+
+an "x" button is provided at the top right part of this window where you can exit the window
+
+Feedback: 
+
+this section is provided with inputs where informations must be provided before 
+submission while you can rate by clicking
+the star with the position you see fit 
+
+Faq:
+
+Faq provides a list of likely asked questions with answers this answers can be accessed 
+by placing your cursor over the question you want answered.
+
+About us: 
+
+Contains some valuable information about bakerz bite you can either scroll down to the section or use the "about us" nav-link at the top of the screen
+
+Contact us:
+
+Options a made available for users to contact customer care n case of further enquiry this can be done by just clicking on the choice you seem fit
+
+Maps are made available on the footer for visual insight of location or for users to locate us easily
+
+An in page timer at the bottom of the page is made available for a quick glance at time
+
+A button is noticed on scroll, this button when clicked takes you back to the top of the web page

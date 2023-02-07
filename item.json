@@ -1,0 +1,269 @@
+{
+    "item_list": [
+
+        {
+            "name": "Perfect Chocolate Cake",
+            "description": "Perfectly moist and delicious, every time!",
+            "price": 15,
+            "ingredients": {
+                "key": ["1 ¾ cup (210 g) all-purpose flour", "2 cups (400 g) granulated sugar", 
+                "¾ cup (90 g) unsweetened cocoa powder", "1 teaspoon baking powder",
+                "1 teaspoon kosher salt","1 cup (240 g) buttermilk, room temperature",
+                "2 large eggs, at room temperature","2 teaspoons vanilla extract",
+                "½ cup (112 g) vegetable oil","2 teaspoons baking soda",
+                "1 cup (237 g) freshly brewed coffee"]
+               
+            },
+            "image": "images/item-1_chocolate cake.jpg"
+        },
+
+        {
+            "name": "Lemon Blueberry Cake",
+            "description": "This Lemon Blueberry Cake with loads of gorgeous Zucchini is going to be your new favorite dessert!!",
+            "price": 17,
+            "ingredients": {
+                "key": ["2 cups finely shredded and lightly drained zucchini", "3 large eggs, lightly beaten, room temperature",
+                  "1 cup (224g) vegetable oil", "3 teaspoons vanilla extract","2¼ cups (450g) granulated sugar",
+                  "3 cups (375g) all-purpose flour","1 teaspoon kosher salt","1 teaspoon baking powder","¼ teaspoon baking soda",
+                    "1 pint fresh blueberries","1 cup (226g) butter, room temperature","3½ cups confectioners' sugar",
+                    "juice of one lemon","zest of one lemon","1 teaspoon vanilla extract","⅛ teaspoon kosher salt"
+                ]
+            },
+            "image": "images/item-2_lemonblueberry.jpg"
+        },
+
+        {
+            "name": "Cream Cheese Pound Cake",
+            "description": "By far the best Cream Cheese Pound Cake I have ever eaten or shared! This pound cake recipe will surely become a classic in your home.",
+            "price": 21,
+            "ingredients": {
+                "key": ["1 package (8-ounce) cream cheese, room temperature", 
+                "1¼ cups (2½ sticks or 284g) salted butter, room temperature", 
+                "3 cups (600g) granulated sugar", "6 large eggs, room temperature", "2 teaspoons vanilla extract",
+                "3 cups (375g) cake flour","¼ cup (60g) buttermilk, room temperature","confectioners' sugar, for dusting"]
+            },
+            "image": "images/item-3_creamcheese cake.jpg"
+        },
+
+        {
+            "name": "Cream Filled Yellow Cake",
+            "description": "BCream Filled Yellow Cake is a moist bundt cake that is filled with a marshmallow and whipped topping filling to remind you of a Twinkie.",
+            "price": 11,
+            "ingredients": {
+                "key": ["1 box (15.25 ounces) yellow cake mix", 
+                "3 large eggs, room temperature", 
+                "1 cup water", "½ cup vegetable oil", "½ jar (approximately 3½ ounces) marshmallow fluff",
+                "1 cup whipped topping, like cool whip","nonstick cooking spray","onfectioners' sugar, optional for topping"]
+            },
+            "image": "images/item-4_cream filled cake.jpg"
+        },
+
+        {
+            "name": "Rhubarb Cake",
+            "description": "Rhubarb Cake is a soft, moist, and flavorful cake full of diced rhubarb and topped with granulated sugar that is simple to make and a dessert everyone will love!",
+            "price": 21,
+            "ingredients": {
+                "key": ["1½ cups (300 g) brown sugar, packed", 
+                "⅔ cup (145 g) vegetable oil", 
+                "2 large eggs, room temperature", "1 cup (245 g) buttermilk", 
+                "1 teaspoon kosher salt","1 teaspoon baking soda","1 teaspoon vanilla","2½ cups (312.5 g) all-purpose flour",
+                "3 cups rhubarb, diced","¼ cup (50 g) granulated sugar for topping"
+            ]
+            },
+            "image": "images/item-5_rhubarb.jpg"
+        },
+
+        {
+            "name": "Strawberry Woolworth Icebox Cheesecake",
+            "description": "Strawberry Woolworth Icebox Cheesecake is a light and fluffy no-bake dessert with fresh strawberries and a graham cracker crust.",
+            "price": 19.2,
+            "ingredients": {
+                "key": ["2 cups (14-16 sheets, 168 g) honey graham crackers, finely crushed", 
+                "1 tablespoon granulated sugar", "½ cup (1 stick / 113g) butter, melted", "1 pound strawberries, thinly sliced", 
+                "1 block (8 ounces) cream cheese, room temperature","1 cup (200 g) granulated sugar","2 teaspoons vanilla",
+                "1 box (3 ounces) strawberry jello mix", "½ cup boiling water, 212°F","½ cup cold water, 55°F","1 can (12 ounces) evaporated milk, chilled in the freezer",
+                "whipped cream, for garnish"
+            ]
+            },
+            "image": "images/item6.jpg"
+        },
+
+        {
+            "name": "Raspberry Oatmeal Cookies",
+            "description": "Raspberry Oatmeal Cookies are soft and chewy oatmeal cookies loaded with old-fashioned rolled oats and frozen raspberries.",
+            "price": 16.2,
+            "ingredients": {
+                "key": ["1 cup (2 sticks, 227 g) salted butter, softened", "1 cup (200 g) light brown sugar, packed", "½ cup (100 g) granulated sugar", 
+                "1 teaspoon vanilla","1½ cups (187.5 g) all-purpose flour", "3 cups (270 g) old-fashioned oats", 
+                "1 teaspoon baking soda","2 teaspoons cinnamon","1 cup (250 g) frozen raspberries, roughly chopped"
+            ]
+            },
+            "image": "images/item7.jpg"
+        
+        },
+
+        {
+            "name": "Spritz Cookie",
+            "description": "This Spritz Cookie Recipe gives you rich, buttery cookies made with a cookie press for a decorative design.",
+            "price": 6.2,
+            "ingredients": {
+                "key": ["1 cup (2 sticks, 227 g) unsalted butter, softened", "¾ cup (150 g) granulated sugar", 
+                "1 large egg, room temperature", "1 teaspoon vanilla extract","½ teaspoon almond extract", 
+                "2¼ cups (281 g) all-purpose flour", 
+                "½ teaspoon kosher salt","gel food coloring, optional"
+            ]
+            },
+            "image": "images/item-8.jpg"
+        
+        },  
+
+        {
+            "name": "Toffee Icebox Cookies",
+            "description": "Toffee Icebox Cookies are rich and buttery cookies with chocolate-covered toffee bits you can taste in every bite.",
+            "price": 7,
+            "ingredients": {
+                "key": ["1 cup (2 sticks / 227 g) unsalted butter, softened", "½ cup (62.5 g) confectioners' sugar", 
+                "1½ teaspoons vanilla extract", "1¾ cups (219 g) all-purpose flour","½ cup (64 g) cornstarch", 
+                "¼ teaspoon kosher salt", "1 cup chocolate-covered toffee bits, reserving ¼ cup for topping"
+            ]
+            },
+            "image": "images/item-9.jpg"
+        
+        },
+
+        {
+            "name": "Twix Inspired Cookies",
+            "description": "These cookies are large, soft, butter cookie that is topped with caramel and melted milk chocolate.",
+            "price": 2,
+            "ingredients": {
+                "key": ["½ cup (1 stick, 113g) butter, softened", "½ cup (102.5g) shortening", "11 cup (200g) granulated sugar", 
+                "2 large eggs, room temperature","1 teaspoon vanilla", "3 cups (375g) all-purpose flour", 
+                "2 tablespoons cornstarch","1 teaspoon kosher salt","½ teaspoon baking powder","1 bag (11 ounces) caramel bits or caramel candies, unwrapped",
+                "1 bag (11 ounces) caramel bits or caramel candies, unwrapped","2 tablespoons heavy cream","¼ teaspoon kosher salt",
+                "1 cup milk chocolate chips"
+            ]
+            },
+            "image": "images/item-10.jpg"
+        
+        },
+
+        {
+            "name": "Twix Inspired Cookies",
+            "description": "These cookies are large, soft, butter cookie that is topped with caramel and melted milk chocolate.",
+            "price": 2,
+            "ingredients": {
+                "key": ["½ cup (1 stick, 113g) butter, softened", "½ cup (102.5g) shortening", "11 cup (200g) granulated sugar", 
+                "2 large eggs, room temperature","1 teaspoon vanilla", "3 cups (375g) all-purpose flour", 
+                "2 tablespoons cornstarch","1 teaspoon kosher salt","½ teaspoon baking powder","1 bag (11 ounces) caramel bits or caramel candies, unwrapped",
+                "1 bag (11 ounces) caramel bits or caramel candies, unwrapped","2 tablespoons heavy cream","¼ teaspoon kosher salt",
+                "1 cup milk chocolate chips"
+            ]
+            },
+            "image": "images/item-11.webp"
+        
+        },
+
+        {
+            "name": "Triple Chocolate Blossoms",
+            "description": "Triple Chocolate Blossoms give you a triple threat of chocolate with a chocolate cookie, chocolate frosting, and a Hershey's kiss on top!",
+            "price": 6,
+            "ingredients": {
+                "key": ["½ cup (1 stick, 113g) butter, softened", "½ cup (102.5g) shortening", "11 cup (200g) granulated sugar", 
+                "2 large eggs, room temperature","1 teaspoon vanilla", "3 cups (375g) all-purpose flour", 
+                "2 tablespoons cornstarch","1 teaspoon kosher salt","½ teaspoon baking powder","1 bag (11 ounces) caramel bits or caramel candies, unwrapped",
+                "1 bag (11 ounces) caramel bits or caramel candies, unwrapped","2 tablespoons heavy cream","¼ teaspoon kosher salt",
+                "1 cup milk chocolate chips"
+            ]
+            },
+            "image": "images/item-12.jpg"
+        
+        },
+
+        {
+            "name": "Peanut Butter Cream Pie",
+            "description": "Peanut Butter Cream Pie is as creamy as it is easy to make with an Oreo cookie crust filled with a peanut butter filling, topped with chopped peanuts.",
+            "price": 4,
+            "ingredients": {
+                "key": ["1 package (8 ounces) cream cheese, room temperature", "½ cup (129 g) creamy peanut butter", "¾ cup (94 g) confectioners' sugar", 
+                "⅓ cup (82 g) whole milk","1 tub (8 ounces) cool whip", "1 store-bought (6 ounces) Oreo pie crust","¼ cup (37 g) chopped peanuts (optional garnish for the top)"
+                
+            ]
+            },
+            "image": "images/item-13.jpg"
+        
+        },
+
+        {
+            "name": "Chocolate Chess Pie",
+            "description": "Chocolate Chess Pie is a fudgy chocolate pie filling made in a flaky crust that will satisfy all the chocolate lovers out there!",
+            "price": 16,
+            "ingredients": {
+                "key": ["1 9-inch unbaked pie crust, store-bought or homemade", "1  cup (200g) granulated sugar", "¼ cup (29.5g) unsweetened cocoa powder", 
+                "¼ cup (½ stick, 57g) unsalted butter, melted and slightly cooled","2 large eggs, room temperature", 
+                "1 can (5 ounces or ⅔ cup) evaporated milk","1 teaspoon vanilla extract","confectioners' sugar, for dusting","whipped topping, for garnish"
+                
+            ]
+            },
+            "image": "images/item-14.jpg"
+        
+        },
+
+        {
+            "name": "Apple Pie",
+            "description": " Apple Pie has all the flavors of an apple pie, but it is made with a graham cracker crust and you don't even need to turn on your oven!",
+            "price": 16,
+            "ingredients": {
+                "key": ["1 9-inch unbaked pie crust, store-bought or homemade", "1  cup (200g) granulated sugar", "¼ cup (29.5g) unsweetened cocoa powder", 
+                "¼ cup (½ stick, 57g) unsalted butter, melted and slightly cooled","2 large eggs, room temperature", 
+                "1 can (5 ounces or ⅔ cup) evaporated milk","1 teaspoon vanilla extract","confectioners' sugar, for dusting","whipped topping, for garnish"
+                
+            ]
+            },
+            "image": "images/item-15.jpg"
+        
+        },
+
+        {
+            "name": "Blueberry Pie",
+            "description": "Blue berry Pie is as creamy as it is easy to make with an Oreo cookie crust filled with a peanut butter filling, topped with chopped peanuts.",
+            "price": 4,
+            "ingredients": {
+                "key": ["1 package (8 ounces) cream cheese, room temperature", "½ cup (129 g) creamy peanut butter", "¾ cup (94 g) confectioners' sugar", 
+                "⅓ cup (82 g) whole milk","1 tub (8 ounces) cool whip", "1 store-bought (6 ounces) Oreo pie crust","¼ cup (37 g) chopped peanuts (optional garnish for the top)"
+                
+            ]
+            },
+            "image": "images/blueberry pie.jpg"
+        
+        },
+
+        {
+            "name": "Cherry hand Pie",
+            "description": "Cherry Hand Pies are mini pie crusts filled with homemade cherry pie filling, fried to a golden brown, and drizzled with an almond glaze.",
+            "price": 4,
+            "ingredients": {
+                "key": ["1 package (8 ounces) cream cheese, room temperature", "½ cup (129 g) creamy peanut butter", "¾ cup (94 g) confectioners' sugar", 
+                "⅓ cup (82 g) whole milk","1 tub (8 ounces) cool whip", "1 store-bought (6 ounces) Oreo pie crust","¼ cup (37 g) chopped peanuts (optional garnish for the top)"
+                
+            ]
+            },
+            "image": "images/cherry-hand.webp"
+        
+        },
+        {
+            "name": "Pumpkin Pie Pop Tart",
+            "description": "Pumpkin Pie Pop Tarts are made with a homemade pie crust filled with a pumpkin filling and topped with a brown sugar glaze sprinkled with pumpkin pie spice.",
+            "price": 4,
+            "ingredients": {
+                "key": ["1 cup (245 g) pumpkin puree", "1 large egg, beaten", "¼ cup (50 g) light brown sugar, packed", 
+                "½ teaspoon pumpkin pie spice","1 tablespoon milk", "1 store-bought (6 ounces) Oreo pie crust","¼ cup (37 g) chopped peanuts (optional garnish for the top)"
+                
+            ]
+            },
+            "image": "images/pumpkin-pop.webp"
+        
+        }
+
+
+    ]
+}

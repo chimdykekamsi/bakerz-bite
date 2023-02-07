@@ -1,0 +1,141 @@
+Bakerz bite
+
+=========================================================================
+
+Developers Guide
+
+sections:
+	each section is written in a section tag with respective classes 
+	for easy identification and styling
+	these classes are giving in order to correspond with the section 
+	name example: the about us section 
+	is given a class of about for easy identification
+
+The top page is started with a cool animation, this is achieved with the aid of 
+css animation  key frames with the 
+Animation name "float"
+
+each nav link hover effect is also achieved using css "hover" pseudo class
+
+Item description pop-up:
+
+	This is archieved by catching the elements clicked with javascript and 
+	then assigning it to a constant variable using the for each loop 
+	which return the element in an array format similar to the json database 
+	using the array position of the element we fetched 
+	the maching object in the data base. these objects are in turn assigned 
+	to variables which in turn used to display the values
+	in the database
+	
+	let items = document.querySelectorAll('.item');
+
+items.forEach((item, a) => {
+    item.onclick = function() {
+        $('#item-detail').addClass('d-block')
+        $('#cancel').click(function() {
+            $('#item-detail').removeClass('d-block')
+        })
+
+        fetch('item.json').then(response => response.json()).then(json => {
+            itemDescription = document.querySelector("#item-description")
+            itemName = document.querySelector("#item-name")
+            itemprice = document.querySelector("#item-price")
+            itemImage = document.querySelector("#item-image")
+            itemIngredientKey = document.querySelector("#item-ingredientKey")
+
+            let listHTML = "";
+            itemName.innerHTML = json.item_list[a].name
+            itemImage.src = json.item_list[a].image
+            itemDescription.innerHTML = json.item_list[a].description
+            itemprice.innerHTML = ` ${json.item_list[a].price}$ `
+            for (let i = 0; i < json.item_list[a].ingredients.key.length; i++) {
+
+                listHTML += `<p>▢ ${json.item_list[a].ingredients.key[i]}.</p>`
+
+            }
+            itemIngredientKey.innerHTML = listHTML;
+        })
+    }
+})
+
+
+Feed back:
+
+	we check for if form is submitted then we passed the input value as 
+	variable which is used to save this inputs as objects
+	then if empty input display error message , this is archieved by 
+	checking if the input values are equal to empty strings
+
+WHILE 
+	Rating functionality was achieved first with the use  of html entity &#9734; 
+	which displays a non-filled star, grabbing this
+	stars using a for each loop returns it as an array thus allowing us to know 
+	the star clicked then the star clicked assigns another
+	html entity to all the other stars less than or equal to the clicked star 
+	
+
+	
+const allstars = document.querySelectorAll('.star')
+
+allstars.forEach((star, i) => {
+    
+    star.onclick = function() {
+        console.log(star)
+        let starLevel = i + 1
+
+        allstars.forEach((star, j) => {
+            if (starLevel >= j + 1) {
+                star.innerHTML = '&#9733';
+            } else {
+                star.innerHTML = '&#9734'
+            }
+        })
+
+    }
+})
+
+
+The FAQ section is archieved by enclosing the Answers in the same li tag that has the question then restrictiig the height and over flow so that 
+on hover the height is returned to auto
+
+.faq{
+         padding: 2rem;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+        background: #fff;
+        border-radius: .5rem;
+    }
+    .faq ul{
+        padding: 5px;
+    }
+    .faq li {
+        position: relative;
+        padding: 5px;
+        height: 3.5rem;
+        overflow: hidden;
+    }
+    .faq li:hover{
+        cursor: pointer;
+        height: auto;
+    }
+    .faq li span{
+        font-size: 1.7rem;
+        font-weight: bolder;
+    }
+    .faq li i{
+       position: absolute;
+       right: 5px;
+       top: 2px;       
+       cursor: pointer;
+       font-size: 1.7rem;
+        font-weight: bolder;
+    }
+    .faq-answer{
+        font-size: 1.5rem;
+        font-weight: light;
+        width: 50%;
+        text-align: justify;
+    } 
+
+
+
+Media queries are then used to ensure responsiveness
